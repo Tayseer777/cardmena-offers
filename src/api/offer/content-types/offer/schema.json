@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "client": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::client.client",
+      "inversedBy": "offers"
+    },
+    "secondary_title": {
+      "type": "string"
+    },
+    "package": {
+      "type": "richtext",
+      "required": true
+    },
+    "pass_information": {
+      "displayName": "pass_information",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.pass-information"
+    },
+    "price_table": {
+      "displayName": "price_table",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.price-table"
+    },
+    "additional_information": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.additional-information"
+    },
+    "virtual_card": {
+      "displayName": "Virtual Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.virtual-card"
+    },
+    "sales": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sale.sale",
+      "mappedBy": "offers"
+    }
+  }
+}

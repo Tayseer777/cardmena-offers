@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_items_additional_informations",
+  "info": {
+    "displayName": "Additional Information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "add_ons": {
+      "type": "string"
+    }
+  }
+}

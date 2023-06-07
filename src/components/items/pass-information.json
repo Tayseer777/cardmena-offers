@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_items_pass_informations",
+  "info": {
+    "displayName": "pass Information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pass_type": {
+      "type": "string",
+      "required": true
+    },
+    "customer_info": {
+      "type": "string",
+      "required": true
+    },
+    "max_stamps": {
+      "type": "string",
+      "required": true
+    },
+    "sharable": {
+      "type": "boolean",
+      "required": true
+    },
+    "barcode_type": {
+      "type": "string",
+      "required": true
+    },
+    "location_trigger": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_items_price_tables",
+  "info": {
+    "displayName": "price Table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtotal": {
+      "type": "string",
+      "required": true
+    },
+    "discount": {
+      "type": "string",
+      "required": true
+    },
+    "tax": {
+      "type": "string",
+      "required": true
+    },
+    "total": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

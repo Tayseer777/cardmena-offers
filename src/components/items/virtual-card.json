@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_items_virtual_cards",
+  "info": {
+    "displayName": "Virtual Card"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "fresh_offer": {
+      "type": "string",
+      "required": true
+    },
+    "valid_by": {
+      "type": "date",
+      "required": true
+    },
+    "barcode": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
