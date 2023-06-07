@@ -1,7 +1,7 @@
 import favicon from './extensions/download.png';
 //
 import TweetButton from "./extensions/components/TweetButton";
-
+//
 export default {
   config: {
     locales: ['ar', 'en'],
