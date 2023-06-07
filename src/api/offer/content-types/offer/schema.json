@@ -36,13 +36,13 @@
     "pass_information": {
       "displayName": "pass_information",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "items.pass-information"
     },
     "price_table": {
       "displayName": "price_table",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "items.price-table"
     },
     "additional_information": {
@@ -53,7 +53,7 @@
     "virtual_card": {
       "displayName": "Virtual Card",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "items.virtual-card"
     },
     "sales": {
