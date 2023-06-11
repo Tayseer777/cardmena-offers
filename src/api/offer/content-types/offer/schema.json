@@ -57,7 +57,7 @@
     "any": {
       "type": "uid",
       "targetField": "main_title",
-      "minLength": 15
+      "private": true
     }
   }
 }
