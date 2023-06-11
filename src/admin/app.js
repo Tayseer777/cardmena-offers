@@ -25,9 +25,9 @@ export default {
     },
   translations: {
     en:{
-      "app.components.LeftMenu.navbrand.title": "Office",
+      "app.components.LeftMenu.navbrand.title": "Cardmena Administrator",
       "app.components.LeftMenu.navbrand.workplace": "Vuedale Technologies",
-      "app.components.HomePage.welcome.again": "Hi Vuedale!",
+      "app.components.HomePage.welcome.again": "Hi Cardmena beautiful team!",
       "app.components.TweetButton.button": "Share on Twitter",
     },
     ar: {
