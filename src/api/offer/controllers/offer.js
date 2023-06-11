@@ -13,12 +13,12 @@ module.exports = createCoreController('api::offer.offer', {
      * @returns {Object}
      */
     async findOne(ctx) {
-      const { id } = ctx.body.uid;
-      const entity = await strapi.services.offer.findOne({ id });
+      const { uid } = ctx.params;
+      const entity = await strapi.services.offer.findOne({ uid });
       return strapi.services.offer.sanitizeEntity(entity);
     }
   });
 
-const {sanitizeEntity} = require('strapi-utils')
+// const {sanitizeEntity} = require('strapi-utils')
 
   
