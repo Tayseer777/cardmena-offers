@@ -25,8 +25,8 @@ export default {
     },
   translations: {
     en:{
-      "app.components.LeftMenu.navbrand.title": "Cardmena Administrator",
-      "app.components.LeftMenu.navbrand.workplace": "Vuedale Technologies",
+      "app.components.LeftMenu.navbrand.title": "Price Offers",
+      "app.components.LeftMenu.navbrand.workplace": "CardMENA Systems",
       "app.components.HomePage.welcome.again": "Hi Cardmena beautiful team!",
       "app.components.TweetButton.button": "Share on Twitter",
       "Auth.form.welcome.subtitle": "Log in to your Cardmena Administrator account",
