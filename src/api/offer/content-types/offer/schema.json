@@ -12,22 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "main_title": {
-      "type": "string",
-      "required": true
-    },
-    "date": {
-      "type": "date",
-      "required": true
-    },
     "client": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::client.client",
       "inversedBy": "offers"
-    },
-    "secondary_title": {
-      "type": "string"
     },
     "pass_information": {
       "displayName": "pass_information",
@@ -53,9 +42,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "any": {
-      "type": "uid"
     },
     "uid": {
       "type": "customField",
