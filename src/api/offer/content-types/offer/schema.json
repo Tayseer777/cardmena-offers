@@ -26,14 +26,15 @@
     },
     "sales": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToOne",
       "target": "api::sale.sale",
-      "mappedBy": "offers"
+      "inversedBy": "offer"
     },
-    "packages": {
+    "package": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::package.package"
+      "relation": "oneToOne",
+      "target": "api::package.package",
+      "inversedBy": "offer"
     },
     "virtual_card": {
       "type": "media",

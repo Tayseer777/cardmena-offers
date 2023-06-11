@@ -22,11 +22,11 @@
       "type": "string",
       "required": true
     },
-    "offers": {
+    "offer": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToOne",
       "target": "api::offer.offer",
-      "inversedBy": "sales"
+      "mappedBy": "sales"
     }
   }
 }

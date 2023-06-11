@@ -19,6 +19,7 @@
     "@strapi/strapi": "4.10.7",
     "axios": "^1.4.0",
     "better-sqlite3": "8.0.1",
+    "nvm": "^0.0.4",
     "pg": "^8.11.0",
     "pg-connection-string": "^2.6.0",
     "strapi-auto-uuid": "^0.0.7",

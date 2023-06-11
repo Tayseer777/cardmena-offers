@@ -25,6 +25,12 @@
       "repeatable": false,
       "component": "items.pricing",
       "required": true
+    },
+    "offer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::offer.offer",
+      "mappedBy": "package"
     }
   }
 }
