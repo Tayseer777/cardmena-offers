@@ -30,7 +30,7 @@ export default {
       "app.components.HomePage.welcome.again": "Hi Cardmena beautiful team!",
       "app.components.TweetButton.button": "Share on Twitter",
       "Auth.form.welcome.subtitle": "Log in to your Cardmena Administrator account",
-      "Auth.form.welcome.title": "Welcome to Cardmena Administration!",
+      "Auth.form.welcome.title": "Welcome to Cardmena!",
     },
     ar: {
       "app.components.LeftMenu.logout": "تسجيل خروج",
