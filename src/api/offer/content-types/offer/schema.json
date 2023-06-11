@@ -55,9 +55,7 @@
       ]
     },
     "any": {
-      "type": "uid",
-      "targetField": "main_title",
-      "private": true
+      "type": "uid"
     }
   }
 }
