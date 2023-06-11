@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "singularName": "package",
+    "pluralName": "packages",
+    "displayName": "Packages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "package_name": {
+      "type": "string",
+      "required": true
+    },
+    "display_title": {
+      "type": "string"
+    },
+    "pricing": {
+      "displayName": "Pricing",
+      "type": "component",
+      "repeatable": false,
+      "component": "items.pricing",
+      "required": true
+    }
+  }
+}

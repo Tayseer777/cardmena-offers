@@ -29,38 +29,34 @@
     "secondary_title": {
       "type": "string"
     },
-    "package": {
-      "type": "richtext",
-      "required": true
-    },
     "pass_information": {
       "displayName": "pass_information",
       "type": "component",
       "repeatable": false,
       "component": "items.pass-information"
     },
-    "price_table": {
-      "displayName": "price_table",
-      "type": "component",
-      "repeatable": false,
-      "component": "items.price-table"
-    },
-    "additional_information": {
-      "type": "component",
-      "repeatable": true,
-      "component": "items.additional-information"
-    },
-    "virtual_card": {
-      "displayName": "Virtual Card",
-      "type": "component",
-      "repeatable": false,
-      "component": "items.virtual-card"
-    },
     "sales": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::sale.sale",
       "mappedBy": "offers"
+    },
+    "packages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::package.package"
+    },
+    "virtual_card": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "any": {
+      "type": "uid",
+      "targetField": "main_title"
     }
   }
 }

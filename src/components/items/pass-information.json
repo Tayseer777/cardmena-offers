@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "customer_info": {
+    "branches": {
       "type": "string",
       "required": true
     },
@@ -26,8 +26,20 @@
       "type": "string",
       "required": true
     },
+    "personalization": {
+      "type": "boolean",
+      "required": true
+    },
     "location_trigger": {
-      "type": "string",
+      "type": "boolean",
+      "required": true
+    },
+    "data_collection": {
+      "type": "boolean",
+      "required": true
+    },
+    "nfc_enabled": {
+      "type": "boolean",
       "required": true
     }
   }

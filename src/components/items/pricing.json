@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_items_pricings",
+  "info": {
+    "displayName": "Pricing"
+  },
+  "options": {},
+  "attributes": {
+    "package_sku": {
+      "type": "string",
+      "required": true
+    },
+    "subtotal_price": {
+      "type": "string",
+      "required": true
+    },
+    "special_discount": {
+      "type": "string",
+      "required": false
+    },
+    "total_price": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

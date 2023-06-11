@@ -35,7 +35,7 @@ module.exports =({env}) => ({
               },
             },
             published: {
-              url: 'https://cardmenaoffers.netlify.app/offers/{id}',
+              url: 'https://cardmenaoffers.netlify.app/offers/{any}',
             },
           },
           // {
