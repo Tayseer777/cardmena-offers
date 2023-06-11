@@ -56,6 +56,10 @@
     },
     "any": {
       "type": "uid"
+    },
+    "uid": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
     }
   }
 }
