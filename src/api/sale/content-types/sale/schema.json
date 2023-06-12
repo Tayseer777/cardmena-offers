@@ -27,12 +27,6 @@
       "relation": "oneToOne",
       "target": "api::offer.offer",
       "mappedBy": "sales"
-    },
-    "offerss": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::offer.offer",
-      "inversedBy": "potato"
     }
   }
 }

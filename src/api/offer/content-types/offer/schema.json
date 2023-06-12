@@ -47,15 +47,6 @@
     "uid": {
       "type": "customField",
       "customField": "plugin::field-uuid.uuid"
-    },
-    "numbers": {
-      "type": "string"
-    },
-    "potato": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::sale.sale",
-      "mappedBy": "offerss"
     }
   }
 }
