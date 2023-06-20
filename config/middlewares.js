@@ -16,7 +16,7 @@ module.exports = [
             'http://localhost:8888/',
             "https://vuedaleoffers.netlify.app/*",
             "vuedaleoffers.netlify.app",
-            "https://naffasy.s3.amazonaws.com/*"
+            "https://naffasy.s3.amazonaws.com/thumbnail_Group_3622_dcb389cb3b.png"
           ],
           'media-src': [
             "'self'",
@@ -27,7 +27,7 @@ module.exports = [
             'http://localhost:8888/',
             "https://vuedaleoffers.netlify.app/*",
             "vuedaleoffers.netlify.app",
-            "https://naffasy.s3.amazonaws.com/*"
+            "https://naffasy.s3.amazonaws.com/thumbnail_Group_3622_dcb389cb3b.png"
 
           ],
           upgradeInsecureRequests: null,
