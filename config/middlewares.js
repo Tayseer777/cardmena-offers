@@ -14,7 +14,8 @@ module.exports = [
             'market-assets.strapi.io',
             'naffasy.s3.us-east-1.amazonaws.com',
             'http://localhost:8888/',
-            "https://vuedaleoffers.netlify.app/"
+            "https://vuedaleoffers.netlify.app/",
+            "https://naffasy.s3.amazonaws.com/thumbnail_Group_3622_dcb389cb3b.png"
           ],
           'media-src': [
             "'self'",
@@ -23,7 +24,8 @@ module.exports = [
             'market-assets.strapi.io',
             'naffasy.s3.us-east-1.amazonaws.com',
             'http://localhost:8888/',
-            "https://vuedaleoffers.netlify.app/"
+            "https://vuedaleoffers.netlify.app/",
+            "https://naffasy.s3.amazonaws.com/thumbnail_Group_3622_dcb389cb3b.png"
           ],
           upgradeInsecureRequests: null,
         },
