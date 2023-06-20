@@ -13,7 +13,8 @@ module.exports = [
             'blob:',
             'market-assets.strapi.io',
             'naffasy.s3.us-east-1.amazonaws.com',
-            'http://localhost:8888/'
+            'http://localhost:8888/',
+            "https://vuedaleoffers.netlify.app/"
           ],
           'media-src': [
             "'self'",
@@ -21,7 +22,8 @@ module.exports = [
             'blob:',
             'market-assets.strapi.io',
             'naffasy.s3.us-east-1.amazonaws.com',
-            'http://localhost:8888/'
+            'http://localhost:8888/',
+            "https://vuedaleoffers.netlify.app/"
           ],
           upgradeInsecureRequests: null,
         },
